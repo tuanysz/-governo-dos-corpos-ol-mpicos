@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=BBH+Hegarty&family=Changa+One:ital@0;1&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lilita+One&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=BBH+Hegarty&family=Changa+One:ital@0;1&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lilita+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=BBH+Hegarty&family=Cabin:ital,wght@0,400..700;1,400..700&family=Changa+One:ital@0;1&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lilita+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Titan+One&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #1f2442;
+    background: linear-gradient(359deg,rgba(31, 36, 66, 1) 60%, rgba(52, 59, 92, 1) 69%, rgba(255, 255, 255, 1) 100%);
+h2{
+    font-size: medium; 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.titulo {
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(22, 34, 66);
+    align-items: center;
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+.titulo2{
+    color: rgb(232, 237, 248);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+video {
+    width: 620px;
+    height: auto;
+    border-radius: 15px;
+}
+
+p{
+    color: aliceblue;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.texto{
+    margin-top: 24px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background: white;
+    border-radius: 12px;
+    width: 200px;
+    height: 10px;
+    margin-bottom: 30px;
+    margin-left: 30%;
+    margin-right: 10%;
+}
+}
